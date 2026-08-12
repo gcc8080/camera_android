@@ -1,3 +1,9 @@
+## Unreleased (gcc8080 fork)
+
+* Backports capture-session teardown race guards from flutter/packages#12224.
+* Prevents `NullPointerException` and stale-session `IllegalStateException` crashes by using
+  stable `CameraCaptureSession` snapshots and ignoring stale completion callbacks.
+
 ## 0.10.10+3
 
 * Waits for the creation of the capture session when initializing the camera to avoid thread race conditions.

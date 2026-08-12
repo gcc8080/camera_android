@@ -322,11 +322,7 @@ final class CameraApiImpl implements Messages.CameraApi {
 
   @Override
   public void pausePreview() {
-    try {
-      camera.pausePreview();
-    } catch (CameraAccessException e) {
-      throw new Messages.FlutterError("CameraAccessException", e.getMessage(), null);
-    }
+    camera.pausePreview();
   }
 
   @Override
