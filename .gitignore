@@ -1,0 +1,17 @@
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+
+.gradle/
+local.properties
+
+.idea/
+*.iml
+
+example/.dart_tool/
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+example/.packages
+example/build/
