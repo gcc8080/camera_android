@@ -23,7 +23,7 @@ dependencies:
   camera_android:
     git:
       url: https://github.com/gcc8080/camera_android.git
-      ref: fix/capture-session-close-race
+      ref: main
 ```
 
 For production applications, replace the branch name with a tested commit SHA.
